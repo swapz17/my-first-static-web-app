@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  const [data, setData] = userState('');
+  const [data, setData] = useState('');
 
   useEffect(()=>{
     (async function () {
